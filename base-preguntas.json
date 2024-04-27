@@ -1,0 +1,124 @@
+
+[
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Palkia, Dialga y Giratina",
+        "incorrecta1": "Kyogre, Groudon, Rayquaza",
+        "incorrecta2": "Raikou, Entei y Suicune",
+        "incorrecta3": "Cobalion, Terrakion y Virizion",
+        "imagen": "img/platino.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Xerneas, Yveltal",
+        "incorrecta1": "Mew, MewTwo",
+        "incorrecta2": "Solgaleo, Lunala",
+        "incorrecta3": "Reshiram, Zekrom",
+        "imagen": "img/xy.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Ho-Oh, Lugia",
+        "incorrecta1": "Mew, MewTwo",
+        "incorrecta2": "Zacian, Zamazenta",
+        "incorrecta3": "Reshiram, Zekrom",
+        "imagen": "img/oro.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Reshiram, Zekrom",
+        "incorrecta1": "Mew, MewTwo",
+        "incorrecta2": "Zacian, Zamazenta",
+        "incorrecta3": "Charizard, Goodra",
+        "imagen": "img/blanco.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Kyurem Blanco, Kyurem Negro",
+        "incorrecta1": "Kyogre, Groudon",
+        "incorrecta2": "Greninja, Hawlucha",
+        "incorrecta3": "Reshiram, Zekrom ",
+        "imagen": "img/blanco2.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quiene es este Pokemon",
+        "respuesta": "Rayquaza",
+        "incorrecta1": "Palkia",
+        "incorrecta2": "Dialga",
+        "incorrecta3": "Giratina",
+        "imagen": "img/esmeralda.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Charizard, Venusaur",
+        "incorrecta1": "Mew, MewTwo",
+        "incorrecta2": "Anpharos, Chicorita",
+        "incorrecta3": "Kyurem, Lucario",
+        "imagen": "img/fuego.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Zacian, Zamazenta",
+        "incorrecta1": "Alacazam, Dragonite",
+        "incorrecta2": "Salamance, Metagros",
+        "incorrecta3": "Reshiram, Zekrom ",
+        "imagen": "img/shield.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quienes son estos Pokemones",
+        "respuesta": "Solgaleo, Lunala",
+        "incorrecta1": "Nidoking, Pidgeotto",
+        "incorrecta2": "Flygon, Metagros",
+        "incorrecta3": "Oshawott, Lycanroc",
+        "imagen": "img/sol.avif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quien es este Pokemon",
+        "respuesta": "Metagros",
+        "incorrecta1": "Salamance",
+        "incorrecta2": "Swampert",
+        "incorrecta3": "Torchic",
+        "imagen": "img/metagross.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quien es este Pokemon",
+        "respuesta": "Salamance",
+        "incorrecta1": "Metagros",
+        "incorrecta2": "Swampert",
+        "incorrecta3": "Torchic",
+        "imagen": "img/salamance.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Videojuegos",
+        "pregunta": "Quien es este Pokemon",
+        "respuesta": "Charizard",
+        "incorrecta1": "Metagros",
+        "incorrecta2": "Bulbasur",
+        "incorrecta3": "Torchic",
+        "imagen": "img/charizard.png",
+        "objectFit": "cover"
+    }
+    
+]

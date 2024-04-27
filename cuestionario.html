@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="aj.css">
+</head>
+<body>
+    <header>
+        <h1>Pokemon</h1>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3>. ¿Qué Pokémon legendario se dice que fue creado a partir del ADN de Mew y tiene la capacidad de copiar los movimientos de cualquier otro Pokémon?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Mewtwo
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Mew
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Ditto
+            </label>
+        </section>
+
+        <section id="p1">
+            <h3>¿En qué región se desarrolla la tercera generación de Pokémon y qué la caracteriza por la presencia de un equipo villano que busca expandir los océanos y la tierra?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Kanto; Equipo Rocket 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Hoenn; Equipo Aqua y Equipo Magma
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Sinnoh; Team Galactic
+            </label>
+        </section>
+
+        <section id="p2">
+            <h3>¿En qué región se desarrolla la tercera generación de Pokémon y qué la caracteriza por la presencia de un equipo villano que busca expandir los océanos y la tierra?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Kanto; Equipo Rocket 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Hoenn; Equipo Aqua y Equipo Magma
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Sinnoh; Team Galactic
+            </label>
+        </section>
+
+        <section id="p3">
+            <h3>¿Cuál es el nombre del Pokémon de tipo dragón/volador que se dice que fue creado por Arceus y que tiene la capacidad de calmar la ira de los Pokémon legendarios?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Dialga
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Palkia
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Rayquaza
+            </label>
+        </section>
+
+        <section id="p4">
+            <h3>¿Qué tipo de Pokémon es Lugia, el Pokémon legendario que representa las aves y la protección del mar?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Psíquico/Volador 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Dragón/Hada
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Agua/Volador
+            </label>
+        </section>
+
+        <section id="p5">
+            <h3>¿Cuál es el movimiento especial característico del Pokémon Gengar, un fantasma travieso conocido por su risa espeluznante?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> Mega Chupavidas
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> Bola Sombra
+            </label>
+            <label>
+                <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> Psíquico
+            </label>
+        </section>
+
+        <section id="p6">
+            <h3>¿En qué ciudad se encuentra la Liga Pokémon en la región de Teselia?</h3>
+            <label>
+                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> Pueblo Paleta 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> Ciudad Azafrán
+            </label>
+            <label>
+                <input type="radio" value="3" name="p6" onclick="respuesta(6,this)"> Ciudad Nube Blanca
+            </label>
+        </section>
+
+        <section id="p7">
+            <h3>¿En qué región se desarrolla la octava generación de Pokémon y qué la caracteriza por la presencia de un fenómeno llamado Dynamax que permite a los Pokémon crecer a un tamaño gigante?</h3>
+            <label>
+                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Galar; Dynamax
+            </label>
+            <label>
+                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> Alola; Z-Moves
+            </label>
+            <label>
+                <input type="radio" value="3" name="p7" onclick="respuesta(7,this)">  Kalos; Mega Evoluciones
+            </label>
+        </section>
+
+        <button onclick="corregir()">CORREGIR</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
